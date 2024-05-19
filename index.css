@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  /* padding: top right bottom left */
+  /* padding: top/bottom right/left */
+  padding: 30px 100px 30px 54px;
+}
+
+header .logo {
+  width: 100px;
+}
