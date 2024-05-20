@@ -16,18 +16,18 @@ header {
   align-items: center;
 }
 
-header .logo {
-  width: 100px;
-}
-
 .menu-list {
   display: flex;
   list-style: none;
-  gap: 50px;
+  gap: 75px;
 }
 
 .menu-item a {
   text-decoration: none !important;
-  font-size: 12px;
+  font-size: 16px;
   color: black;
+}
+
+.action-bar {
+  gap: 45px;
 }
