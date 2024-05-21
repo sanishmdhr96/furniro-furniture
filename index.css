@@ -16,6 +16,26 @@ header {
   align-items: center;
 }
 
+.container {
+  padding: 45px 102px;
+}
+
+.container__title {
+  text-align: center;
+}
+
+.container__title h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.container__title p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+}
+
 .menu-list {
   display: flex;
   list-style: none;
@@ -81,26 +101,6 @@ button {
   font-weight: 500;
   text-transform: uppercase;
   margin-top: 46px;
-}
-
-.category {
-  padding: 45px 102px;
-}
-
-.category .category__title {
-  text-align: center;
-}
-
-.category .category__title h3 {
-  font-size: 32px;
-  font-weight: bold;
-  color: #333333;
-}
-
-.category .category__title p {
-  font-size: 20px;
-  font-weight: 400;
-  color: #666666;
 }
 
 .category .category__content {
