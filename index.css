@@ -82,3 +82,39 @@ button {
   text-transform: uppercase;
   margin-top: 46px;
 }
+
+.category {
+  padding: 45px 102px;
+}
+
+.category .category__title {
+  text-align: center;
+}
+
+.category .category__title h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.category .category__title p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.category .category__content {
+  margin-top: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.category__content .category__content--item h4 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #333333;
+  text-align: center;
+  margin-top: 30px;
+}
