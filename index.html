@@ -3,14 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
     <title>Furniro Furnitures</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <header>
-      <!-- 1. Logo -->
       <img class="logo" src="public/assets/logo.png" alt="logo" />
-      <!-- 2. Navigation/ menulinks -->
       <nav class="navigation">
         <ul class="menu-list">
           <li class="menu-item"><a href="#">Home</a></li>
@@ -19,37 +17,46 @@
           <li class="menu-item"><a href="#">Contact</a></li>
         </ul>
       </nav>
-      <!-- 3. Action button / CTA -->
+
       <ul class="menu-list action-bar">
-        <!-- User icon -->
         <li class="menu-item">
           <a href="#">
-            <img src="public/assets/icons/account.png" alt="account" />
+            <img
+              class="icon"
+              src="public/assets/Icons/profile.png"
+              alt="profile"
+            />
           </a>
         </li>
-        <!-- Search icon -->
+
         <li class="menu-item">
           <a href="#">
-            <img src="public/assets/icons/search.png" alt="search" />
+            <img
+              class="icon"
+              src="public/assets/Icons/search.png"
+              alt="search"
+            />
           </a>
         </li>
-        <!-- Wishlist -->
+
         <li class="menu-item">
           <a href="#">
-            <img src="public/assets/icons/wishlist.png" alt="wishlist" />
+            <img
+              class="icon"
+              src="public/assets/Icons/wishlist.png"
+              alt="wishlist"
+            />
           </a>
         </li>
-        <!-- Cart -->
+
         <li class="menu-item">
           <a href="#">
-            <img src="public/assets/icons/cart.png" alt="cart" />
+            <img class="icon" src="public/assets/Icons/cart.png" alt="cart" />
           </a>
         </li>
       </ul>
     </header>
     <main class="hero-section">
-      <!-- Add background image -->
-      <!-- Add hero box -->
       <div class="hero-box">
         <p>New Arrival</p>
         <h3>Discover Our New Collection</h3>
@@ -60,5 +67,50 @@
         <button>Buy Now</button>
       </div>
     </main>
+    <!-- Category Section -->
+    <section>
+      <div class="category">
+        <div class="category__title">
+          <h3>Browse The Range</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="category__content">
+          <div class="category__content--item">
+            <img src="public/assets/Category Items/dining.png" alt="dining" />
+            <h4>Dining</h4>
+          </div>
+          <div class="category__content--item">
+            <img src="public/assets/Category Items/living.png" alt="living" />
+            <h4>Living</h4>
+          </div>
+          <div class="category__content--item">
+            <img src="public/assets/Category Items/bedroom.png" alt="bedroom" />
+            <h4>Bedroom</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Section -->
+    <section>
+      <div class="category-products" id="product-list"></div>
+    </section>
+    <!-- Exploration Section -->
+    <section class="explore-section--container">
+      <div class="explore-section">
+        <div class="content-box">
+          <h1>50+ Beautiful rooms inspiration</h1>
+          <p>
+            Our designer already made a lot of beautiful prototipe of rooms that
+            inspire you
+          </p>
+          <button>Explore More</button>
+        </div>
+        <div class="img-box">
+          <img src="public/assets/explore/Img1.png" alt="bedroom" />
+          <img src="public/assets/explore/Img2.png" alt="dining" />
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
